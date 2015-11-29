@@ -23,7 +23,7 @@ def buy_file():
 
     # print the file list to the console
     for file in range(len(file_list)):
-        print("{}. {}\t{}".format(file, file_list[str(file)][0], file_list[str(file)][1]))
+        print("{}. {}\t{}".format(file+1, file_list[str(file+1)][0], file_list[str(file+1)][1]))
 
     try:
         # prompt the user to input the index number of the file to be purchased
